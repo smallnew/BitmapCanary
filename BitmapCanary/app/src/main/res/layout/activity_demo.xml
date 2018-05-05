@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="smallnew.bitmapcanary.DemoActivity">
+
+    <Button
+        android:id="@+id/iv_go2"
+        android:text="GoDetectBackgound"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/printlogo"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <ImageView
+        android:src="@drawable/printlogo"
+        android:layout_width="160dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:src="@drawable/printlogo"
+        android:layout_width="250dp"
+        android:layout_height="150dp" />
+
+</LinearLayout>
