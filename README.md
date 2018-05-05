@@ -12,6 +12,7 @@ Detect Android bitmap size when app runing,检查安卓运行时使用的bitmap�
     
     ActivityDrawableWatcher.watchDrawable(this);//这样就ok啦
     
-    
+    app界面会有蒙层来表示该图片的位图已经超过了视图的1.5倍(长宽)大小，并有白色数字标明倍数
+    
     
 ![image](https://github.com/smallnew/BitmapCanary/raw/master/detect_demo.png)
