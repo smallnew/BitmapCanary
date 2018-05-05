@@ -7,8 +7,10 @@ Detect Android bitmap size when app runing,检查安卓运行时使用的bitmap�
     
     
     使用方法:
-    下载并依赖androidbitmapcanary
-    ActivityDrawableWatcher.watchDrawable(this);//这样就ok啦
+    
+    下载并依赖androidbitmapcanary
+    
+    ActivityDrawableWatcher.watchDrawable(this);//这样就ok啦
     
     
     
